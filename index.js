@@ -12,13 +12,16 @@ export default {
     Vue.component('code-block', VueCodeBlock)
 
     // to avoid rerror when build cause by vue-toast
-    // to avoid rerror when build cause by vue-toast
     if (!isServer) {
-      import('vue-toasted' /* webpackChunkName: "notification" */).then(
-        (module) => {
-          Vue.use(module.default)
-        }
-      )
+      import('vue-toasted')
+        .then((module) => {
+          Vue.use(module.default, {
+            duration: 6000,
+          })
+        })
+        .catch((error) => {
+          console.error(error)
+        })
     }
   },
 }

@@ -260,6 +260,11 @@
   resolved "https://registry.yarnpkg.com/@xtuc/long/-/long-4.2.2.tgz#d291c6a4e97989b5c61d9acf396ae4fe133a718d"
   integrity sha512-NuHqBY1PB/D8xU6s/thBgOAiAP7HOYDQ32+BFZILJ8ivkUkAHQnWfn6WhL79Owj1qmUnoN/YPhktdIoucipkAQ==
 
+"@yuicer/vue-toast@^1.1.2":
+  version "1.1.2"
+  resolved "https://registry.yarnpkg.com/@yuicer/vue-toast/-/vue-toast-1.1.2.tgz#199bc9f1aa3aada94cecb9ff5b079c657af88d3d"
+  integrity sha512-RAiYFC+OopQDFZKI463o9A/i45WCXxBiiFKpy4GDmbsH8eZcHibZ3jn769tSXGJoLuSSCR4/KRgZ843injWQbw==
+
 abab@^1.0.0:
   version "1.0.4"
   resolved "https://registry.yarnpkg.com/abab/-/abab-1.0.4.tgz#5faad9c2c07f60dd76770f71cf025b62a63cfd4e"

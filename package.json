@@ -1,6 +1,6 @@
 {
   "name": "vue-code-block",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "author": {
     "name": "Ewilan 'EwieFairy' Rivière",
     "email": "ewilan@dotslashplay.it",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
+    "@yuicer/vue-toast": "^1.1.2",
     "babel-eslint": "^10.1.0",
     "eslint": "^6.8.0",
     "eslint-config-prettier": "^6.11.0",
