@@ -1,16 +1,12 @@
 import Vue from 'vue'
 import App from './App.vue'
-import VueCodeBlock from '../index'
-import VueClipboard from 'vue-clipboard2'
-import Toasted from 'vue-toasted'
+import VueTailwindAccordion from '../index'
 
-import './css/air.css'
+import '../lib/assets/css/tailwind.css'
 
 Vue.config.productionTip = false
 
-Vue.use(VueClipboard)
-Vue.use(Toasted)
-Vue.use(VueCodeBlock, {
+Vue.use(VueTailwindAccordion, {
   option: 'option',
 })
 

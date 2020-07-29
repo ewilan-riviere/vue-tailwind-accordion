@@ -1,21 +1,19 @@
 {
   "name": "vue-code-block",
   "version": "0.0.14",
+  "private": false,
   "author": {
     "name": "Ewilan 'EwieFairy' Rivière",
     "email": "ewilan@dotslashplay.it",
     "url": "https://github.com/ewilan-riviere"
   },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/ewilan-riviere/vue-code-block"
-  },
-  "license": "MIT",
-  "private": false,
-  "homepage": "https://ewilan-riviere.github.io/documentation/vue-code-block/",
   "scripts": {
-    "dev": "vue serve example/main.js",
-    "lint": "eslint --ext .js,.vue src"
+    "lint": "eslint --ext .js,.vue src",
+    "dev": "vue serve example/main.js"
+  },
+  "dependencies": {
+    "autoprefixer": "^9.8.5",
+    "tailwindcss": "^1.6.0"
   },
   "devDependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
@@ -24,15 +22,19 @@
     "eslint-config-prettier": "^6.11.0",
     "eslint-plugin-prettier": "^3.1.4",
     "eslint-plugin-vue": "^6.1.2",
+    "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
+    "sass-loader": "^9.0.2",
     "stylus": "^0.54.8",
     "stylus-loader": "^3.0.2",
-    "vue-markdown-loader": "^2.4.1",
+    "vue-cli-plugin-tailwind": "~1.4.1",
     "vue-template-compiler": "^2.6.11",
     "webpack": "^4.44.0"
   },
-  "dependencies": {
-    "vue-clipboard2": "^0.3.1",
-    "vue-toasted": "^1.1.28"
+  "homepage": "https://ewilan-riviere.github.io/documentation/vue-code-block/",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ewilan-riviere/vue-code-block"
   }
 }
