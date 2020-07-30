@@ -1,10 +1,13 @@
-# **Vue Code Block**
+# **Vue Tailwind Accordion**
 
-[![](https://img.shields.io/npm/v/vue-dependencies-badges.svg?style=flat-square&color=cb3837&logo=npm&logoColor=ffffff)](https://www.npmjs.com/package/vue-code-block)
+Based on [**Vue.js Accordion Component**](https://codepen.io/anzk/pen/qBEqXGZ) by Anzhelika Kovalchuk
+
+[![](https://img.shields.io/npm/v/vue-tailwind-accordion.svg?style=flat-square&color=cb3837&logo=npm&logoColor=ffffff)](https://www.npmjs.com/package/vue-code-block)
 [![](https://img.shields.io/github/license/ewilan-riviere/vuepress-theme-useweb.svg?style=flat-square&color=f05032&logo=git&logoColor=ffffff)](https://github.com/ewilan-riviere/dependencies-badges/blob/master/LICENSE)
 
 [![node.js](https://img.shields.io/static/v1?label=Node.js&message=v11.15&color=339933&style=flat-square&logo=node.js&logoColor=ffffff)](https://nodejs.org/en/)
 [![vue.js](https://img.shields.io/static/v1?label=Vue.js&message=v2.6&color=4FC08D&style=flat-square&logo=vue.js&logoColor=ffffff)](https://vuejs.org/)
+[![tailwindcss](https://img.shields.io/static/v1?label=Tailwind%20CSS&message=v1.6&color=38B2AC&style=flat-square&logo=vue.js&logoColor=ffffff)](https://tailwindcss.com/)
 
 TODO
 

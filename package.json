@@ -1,6 +1,6 @@
 {
-  "name": "vue-code-block",
-  "version": "0.0.14",
+  "name": "vue-tailwind-accordion",
+  "version": "0.0.1",
   "private": false,
   "author": {
     "name": "Ewilan 'EwieFairy' Rivière",
@@ -10,10 +10,6 @@
   "scripts": {
     "lint": "eslint --ext .js,.vue src",
     "dev": "vue serve example/main.js"
-  },
-  "dependencies": {
-    "autoprefixer": "^9.8.5",
-    "tailwindcss": "^1.6.0"
   },
   "devDependencies": {
     "@vue/eslint-config-prettier": "^6.0.0",
@@ -25,16 +21,16 @@
     "node-sass": "^4.14.1",
     "prettier": "^2.0.5",
     "sass-loader": "^9.0.2",
-    "stylus": "^0.54.8",
-    "stylus-loader": "^3.0.2",
     "vue-cli-plugin-tailwind": "~1.4.1",
     "vue-template-compiler": "^2.6.11",
-    "webpack": "^4.44.0"
+    "webpack": "^4.44.0",
+    "autoprefixer": "^9.8.5",
+    "tailwindcss": "^1.6.0"
   },
   "homepage": "https://ewilan-riviere.github.io/documentation/vue-code-block/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/ewilan-riviere/vue-code-block"
+    "url": "https://github.com/ewilan-riviere/vue-tailwind-accordion"
   }
 }

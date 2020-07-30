@@ -4,15 +4,17 @@
     class="accordion-item"
     :class="{ 'is-active': item.active }"
   >
-    <dt class="accordion-item-title">
+    <div class="accordion-item-title">
       <button
         @click="toggle"
-        class="w-full px-3 py-4 text-left transition-colors duration-300 bg-transparent border-transparent hover:bg-blue-600 hover:text-white"
+        class="w-full text-left bg-transparent border-transparent accordion-item-trigger"
       >
         <h4 class="accordion-item-title-text">{{ item.title }}</h4>
-        <span class="accordion-item-trigger-icon"></span>
+        <span
+          class="absolute top-0 bottom-0 block m-auto border-b-2 border-r-2 border-gray-800 accordion-item-trigger-icon"
+        ></span>
       </button>
-    </dt>
+    </div>
     <transition
       name="accordion-item"
       @enter="startTransition"
@@ -20,10 +22,11 @@
       @before-leave="startTransition"
       @after-leave="endTransition"
     >
-      <div class="pl-5">
-        <dd v-if="item.active" class="accordion-item-details">
-          <div v-html="item.details" class="px-3 py-4"></div>
-        </dd>
+      <div
+        v-if="item.active"
+        class="overflow-hidden bg-gray-100 accordion-item-details"
+      >
+        <div v-html="item.content" class="accordion-item-details-inner"></div>
       </div>
     </transition>
   </div>
@@ -56,5 +59,3 @@ export default {
   },
 }
 </script>
-
-<style lang="scss" scoped></style>
