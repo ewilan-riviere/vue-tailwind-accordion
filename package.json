@@ -1,6 +1,6 @@
 {
   "name": "vue-tailwind-accordion",
-  "version": "0.0.1",
+  "version": "0.0.11",
   "private": false,
   "author": {
     "name": "Ewilan 'EwieFairy' Rivière",
@@ -27,7 +27,7 @@
     "autoprefixer": "^9.8.5",
     "tailwindcss": "^1.6.0"
   },
-  "homepage": "https://ewilan-riviere.github.io/documentation/vue-code-block/",
+  "homepage": "https://ewilan-riviere.github.io/documentation/vue-tailwind-accordion/",
   "license": "MIT",
   "repository": {
     "type": "git",
