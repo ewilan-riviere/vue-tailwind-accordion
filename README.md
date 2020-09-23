@@ -38,7 +38,7 @@ Use it in a `.vue` file
 ```vue
 <template>
   <div class="container w-1/2 mx-auto my-5">
-    <tailwind-accordion :content="data"></tailwind-accordion>
+    <vue-tailwind-accordion :content="data"></vue-tailwind-accordion>
   </div>
 </template>
 

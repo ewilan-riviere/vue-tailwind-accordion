@@ -5,6 +5,6 @@ export default {
     if (options) {
       // Vue.prototype.$option = options.option
     }
-    Vue.component('tailwind-accordion', VueTailwindAccordion)
+    Vue.component('vue-tailwind-accordion', VueTailwindAccordion)
   },
 }
