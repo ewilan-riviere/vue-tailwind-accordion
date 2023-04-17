@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # **Vue Tailwind Accordion**
 
 [![](https://img.shields.io/npm/v/vue-tailwind-accordion.svg?style=flat-square&color=cb3837&logo=npm&logoColor=ffffff)](https://www.npmjs.com/package/vue-tailwind-accordion)
